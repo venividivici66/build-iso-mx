@@ -50,6 +50,7 @@
         }
     },
     "init": true,
+    "runArgs": ["--shm-size=1g"],
     "entrypoint": "/usr/local/share/desktop-init.sh",
     "containerEnv": {
         "DISPLAY": ":1"
